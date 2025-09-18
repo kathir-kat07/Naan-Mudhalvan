@@ -61,6 +61,7 @@
 <nav>
     <button onclick="showSection('home')">Home</button>
     <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('biodata')">Biodata</button>
     <button onclick="showSection('projects')">Projects</button>
     <button onclick="showSection('contact')">Contact</button>
 </nav>
@@ -116,7 +117,103 @@ Created mockups and prototypes using Figma.</p> `;
                 <a href="todo.html"><div class="project"><strong>To-Do App</strong> - A task management web application.</div></a>
                 <a href="calculator.html"><div class="project"><strong>Calculator</strong> - A simple calculator built with JavaScript.</div></a>
             `;
-        } else if (section === 'contact') {
+
+        }
+        else if (section === 'biodata') {
+            content.innerHTML = `
+                 <h1>Professional Biodata</h1>
+
+  <div class="section">
+    <h2>Personal Details</h2>
+    <p><strong>Full Name:</strong>Kathiravan v</p>
+    <p><strong>Date of Birth:</strong>03 / 10/ 2006</p>
+    <p><strong>Gender:</strong> Male</p>
+    <p><strong>Nationality:</strong>Indian</p>
+
+    <p><strong>Contact Number:</strong> 9952762495</p>
+    <p><strong>Email ID:</strong> kathirkat25@gmail.com</p>
+
+  </div>
+
+  <div class="section">
+    <h2>Career Objective</h2>
+    <p>Motivated frontend developer with expertise in building responsive, user-friendly web applications. Seeking opportunities to apply strong skills in modern frontend frameworks, UI/UX design, and problem-solving to deliver impactful digital experiences.</p>
+  </div>
+
+  <div class="section">
+    <h2>Educational Qualification</h2>
+    <ul>
+      <li>B.Sc. in Computer Science | [University Name] | [Year of Passing] | [Grade/CGPA]</li>
+      <li>Higher Secondary | [School/College Name] | [Year of Passing] | [Grade/Percentage]</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Languages: HTML5, CSS3, JavaScript (ES6+), TypeScript</li>
+      <li>Frameworks & Libraries: React.js, Next.js, Vue.js</li>
+      <li>Styling: Tailwind CSS, Bootstrap, Sass</li>
+      <li>Tools & Platforms: Git, GitHub, VS Code, Figma</li>
+      <li>Others: REST APIs, Responsive Web Design, Cross-Browser Compatibility</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Professional Experience</h2>
+    <p><strong>Frontend Developer Intern | [Company Name] | [MM/YYYY – MM/YYYY]</strong></p>
+    <ul>
+      <li>Developed responsive components using React.js and Tailwind CSS.</li>
+      <li>Collaborated with backend team to integrate REST APIs.</li>
+      <li>Improved website performance and accessibility by 20%.</li>
+    </ul>
+    <p><strong>Freelance Frontend Developer | [Duration]</strong></p>
+    <ul>
+      <li>Built and deployed client websites using modern frameworks.</li>
+      <li>Optimized UI for mobile-first design and SEO best practices.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website</strong> – Designed and developed a personal portfolio using React.js and Tailwind CSS.</li>
+      <li><strong>E-commerce Frontend</strong> – Created a responsive product listing and shopping cart using React and Redux.</li>
+      <li><strong>Task Manager App</strong> – Built a task management app with CRUD operations and local storage.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Frontend Development Certificate | FreeCodeCamp</li>
+      <li>JavaScript Algorithms and Data Structures | [Platform Name]</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Hobbies & Interests</h2>
+    <ul>
+      <li>UI/UX Design</li>
+      <li>Open Source Contribution</li>
+      <li>Blogging about Web Development</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>References</h2>
+    <p>Available on request.</p>
+  </div>
+
+  <div class="section">
+    <h2>Declaration</h2>
+    <p>I hereby declare that the above information is true and correct to the best of my knowledge.</p>
+    <p><strong>Place:</strong> Udumalpet</p>
+    
+  </div>
+            `;
+         }
+          else if (section === 'contact') {
             content.innerHTML = `
                 <h2>Contact Me</h2>
                 <p>Email: kathirkat25@mail.com</p>
